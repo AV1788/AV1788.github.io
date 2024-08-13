@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/AV1788.github.io/static/css/main.06a8ed9d.css",
+    "main.js": "/AV1788.github.io/static/js/main.314dd821.js",
+    "static/media/fon.png": "/AV1788.github.io/static/media/fon.18f77fee909c32610fc8.png",
+    "index.html": "/AV1788.github.io/index.html",
+    "main.06a8ed9d.css.map": "/AV1788.github.io/static/css/main.06a8ed9d.css.map",
+    "main.314dd821.js.map": "/AV1788.github.io/static/js/main.314dd821.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06a8ed9d.css",
+    "static/js/main.314dd821.js"
+  ]
+}
