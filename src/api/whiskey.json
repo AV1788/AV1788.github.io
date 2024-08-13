@@ -1,0 +1,21 @@
+[
+  { "id": "Johnnie Walker Red", "name": "Johnnie Walker Red", "price": "8" },
+  { "id": "JB", "name": "JB", "price": "8" },
+  { "id": "Ballantines", "name": "Ballantines", "price": "8" },
+  { "id": "Famous Grouse", "name": "Famous Grouse", "price": "8" },
+  { "id": "Four Roses", "name": "Four Roses","price": "8" },
+  { "id": "Jameson", "name": "Jameson","price": "8" },
+  { "id": "Dewar's White Label", "name": "Dewar's White Label","price": "8" },
+  { "id": "Jack Daniels", "name": "Jack Daniels","price": "8" },
+  { "id": "Jack Daniels Honey", "name": "Jack Daniels Honey","price": "9" },
+  { "id": "Jim Beam Apple", "name": "Jim Beam Apple","price": "9" },
+  { "id": "Chivas Regal 12", "name": "Chivas Regal 12","price": "10" },
+  { "id": "Johnnie Walker Black", "name": "Johnnie Walker Black","priceSmall": "10", "priceBig":"13" },
+  { "id": "Jack Daniels Gentleman", "name": "Jack Daniels Gentleman","priceSmall": "10", "priceBig":"13" },
+  { "id": "Jack Daniels Single Barrel", "name": "Jack Daniels Single Barrel","priceSmall": "12", "priceBig":"15" },
+  { "id": "Glenfiddich 12", "name": "Glenfiddich 12","priceSmall": "12", "priceBig":"15" },
+  { "id": "Johnnie Walker Double Black", "name": "Johnnie Walker Double Black","priceSmall": "15", "priceBig":"18" },
+  { "id": "Knob Creek Rye", "name": "Knob Creek Rye","priceSmall": "15", "priceBig":"18" },
+  { "id": "Macallan 12", "name": "Macallan 12","priceSmall": "23", "priceBig":"26" },
+  { "id": "Johnnie Walker Blue", "name": "Johnnie Walker Blue","priceSmall": "49", "priceBig":"52" }
+]

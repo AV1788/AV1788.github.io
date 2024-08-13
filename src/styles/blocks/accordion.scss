@@ -1,0 +1,54 @@
+.accordion {
+  font-family: Caveat;
+  --bs-accordion-bg: transparent;
+  --bs-accordion-border-color: transparent;
+  --bs-accordion-border-width: none;
+
+  &-header {
+    display: flex;
+    justify-content: center;
+  }
+  &-item {
+    background-color: transparent;
+    border: none;
+  }
+
+  &-button {
+    font-size: 25px;
+    text-align: center;
+    width: auto;
+
+    &::after {
+      margin-left: 10px;
+    }
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  
+
+  &-button:not(.collapsed) {
+    background-color: transparent;
+    color: white;
+  }
+  &-body {
+    &__list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+
+    &__link {
+      text-decoration: none;
+      font-size: 25px;
+      color: #212529;
+
+      &:hover {
+        border-bottom: 1px solid #212529;
+      }
+    }
+  }
+  
+}

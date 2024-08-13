@@ -1,0 +1,17 @@
+[
+  { "id": "mojito", "name": "Mojito", "description": "White rum, lime juice, sugar syrup, mint, kiwi syrup, sprite.", "price": "8,5" },
+  { "id": "pornstar", "name": "Pornstar Martini", "description": "Vanilla vodka, passion fruit liqueur, passion fruit purée, vanilla syrup, lime juice, egg white.", "price": "12" },
+  { "id": "espresso", "name": "Espresso Martini", "description": "Gin/Bourbon/Vodka/Rum, coffee shot, coffee liqueur, caramel syrup, saline solution.", "price": "12" },
+  { "id": "colada", "name": "Piña Colada", "description": "White rum, coconut cream, pineapple juice.", "price": "9" },
+  { "id": "daiquiri", "name": "Daiquiri frozen", "description": "White rum, maraschino liqueur, lime juice, sugar syrup, fruit purée.", "price": "9" },
+  { "id": "margarita", "name": "Margarita", "description": "Tequila, lime juice, triple sec, agave syrup.", "price": "9" },
+  { "id": "whiskeySour", "name": "Whiskey sour", "description": "Rye whiskey, lemon juice, orange juice ,cane sugar syrup, egg white.", "price": "12" },
+  { "id": "amaretto", "name": "Amaretto sour", "description": "Amaretto, applejack, lemon juice, ml cane sugar, egg white.", "price": "10" },
+  { "id": "manhattan", "name": "Manhattan", "description": "Rye whiskey, sweet vermouth, 4 dashes of bitter.", "price": "10" },
+  { "id": "laMarina", "name": "La Marina", "description": "Vanilla vodka, blue curacao liqueur, elderflower liqueur, lemon juice, lavender syrup, ml violet liqueur, lambrusco.", "price": "13" },
+  { "id": "moscow", "name": "Moscow mule", "description": "Vodka, lime juice, ginger beer.", "price": "9" },
+  { "id": "cosmopolitan", "name": "Cosmopolitan", "description": "Vodka citron, orange liqueur, cranberry juice, lime juice.", "price": "10" },
+  { "id": "pinkLady", "name": "Pink Lady", "description": "Gin, applejack, lemon juice , grenadine, egg white.", "price": "10" },
+  { "id": "negroni", "name": "Blueberry Negroni", "description": "Indigo gin, Luxardo bitter bianco, sweet vermouth, blueberry purée.", "price": "12" },
+  { "id": "brambleberry", "name": "Brambleberry", "description": "Rosé gin, blackberry liqueur, raspberry liqueur, sugar syrup, lemon juice.", "price": "11" }
+]

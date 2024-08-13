@@ -1,0 +1,18 @@
+.menu {
+  box-sizing: border-box;
+  height: auto;
+  z-index: 1;
+  transition: opacity 0.5s;
+  background-color: #f8b74f;
+
+  &__top {
+    position: relative;
+    height: 50px;
+    border-bottom: 1px solid #212529;
+  }
+
+  &__icon {
+    height: 50px;
+    width: 50px;
+  }
+}

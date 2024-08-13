@@ -1,0 +1,20 @@
+[
+  { "id": "Beefeater", "name": "Beefeater", "price": "8" },
+  { "id": "Larios 12", "name": "Larios 12", "price": "8" },
+  { "id": "Seagrams", "name": "Seagrams", "price": "8" },
+  { "id": "Bombay Sapphire", "name": "Bombay Sapphire", "price": "8" },
+  { "id": "Puerto de Indias Strawberry", "name": "Puerto de Indias Strawberry","price": "8,5" },
+  { "id": "Puerto de Indias Blackberry", "name": "Puerto de Indias Blackberry","price": "8,5" },
+  { "id": "Puerto de Indias Melon", "name": "Puerto de Indias Melon","price": "8,5" },
+  { "id": "Tanqueray Rangpur", "name": "Tanqueray Rangpur","price": "10" },
+  { "id": "Roku", "name": "Roku","price": "10" },
+  { "id": "Nordés", "name": "Nordés","price": "10" },
+  { "id": "Martin Miller´s", "name": "Martin Miller´s","price": "10" },
+  { "id": "Bulldog", "name": "Bulldog","price": "10" },
+  { "id": "Bloom Jasmine and Rose Gin", "name": "Bloom Jasmine and Rose Gin","price": "10" },
+  { "id": "Boë Violet Gin", "name": "Boë Violet Gin","price": "10" },
+  { "id": "Brockmans", "name": "Brockmans","price": "12" },
+  { "id": "Hendrikc´s", "name": "Hendrikc´s","price": "12" },
+  { "id": "Gin Mare", "name": "Gin Mare","price": "12" },
+  { "id": "The London №1", "name": "The London №1","price": "12" }
+]

@@ -1,0 +1,59 @@
+.product {
+  &__main {
+    display: grid; 
+    grid-template-columns: max-content 1fr max-content;
+    align-items: center;
+    margin-bottom: 3px;
+  
+    @include onPoint {
+      grid-template-columns: minmax(min-content, max-content) 1fr max-content;
+    }
+  }
+
+  &__name {
+    text-align: left;
+    display: block;
+    white-space: normal;
+    font-family: Cormorant Garamond;
+    font-weight: 800;
+    font-size: 26px;
+  
+    @include onPoint {
+      font-weight: 700;
+      font-size: 23px;
+    }
+  }
+
+  &__price {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 26px;
+    grid-column: 3 / 4;
+  
+    @include onPoint {
+      font-size: 23px;
+    }
+  }
+
+  &__space {
+    border-bottom: 3px dotted #212529;
+    grid-column: 2 / 3;
+    margin: 0 5px;
+  
+    @include onPoint {
+      min-width: 30px;
+    }
+  }
+
+  &__description {
+    display: block;
+    font-family: Caveat;
+    text-align: left;
+    font-size: 23px;
+    line-height: 20px;
+  
+    @include onPoint {
+      font-size: 20px;
+    }
+  }
+}

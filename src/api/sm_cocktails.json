@@ -1,0 +1,13 @@
+[
+  { "id": "oldCuban", "name": "Old Cuban", "description": "Mint,ml falernum syrup, golden rum, lime juice, cava.", "price": "10" },
+  { "id": "frenchberry", "name": "Frenchberry", "description": "Indigo gin , lime juice, raspberry purée, soda.", "price": "10" },
+  { "id": "collins", "name": "Grapefruit Collins", "description": "Indigo gin, grapefruit juice, lime juice, sugar syrup, orange bitter, tonic water.", "price": "11" },
+  { "id": "aperol", "name": "Aperol tropicale", "description": "Rose gin, aperol, passion fruit syrup, pineapple juice, lambrusco, flower water.", "price": "13" },
+  { "id": "alisa", "name": "Alisa", "description": "Gin, lichi liqueur, lemon juice, lime juice,aloe vera juice, ml sugar sirup, karkade, rose water.", "price": "13" },
+  { "id": "creamy", "name": "Creamy cherry", "description": "Vodka cherry, maraschino, condensed milk, lime juice, cherry purée.", "price": "11" },
+  { "id": "juneBug", "name": "June Bug", "description": "Coconut liqueur, melon liqueur, banana liqueur, lime juice, pineapple juice.", "price": "10" },
+  { "id": "bahama", "name": "Bahama Mama", "description": "White rum, golden rum, coconut liqueur, orange juice, pineapple juice, grenadine.", "price": "11" },
+  { "id": "paloma", "name": "Paloma", "description": "Tequila, grapefruit juice, lime juice, agave syrup, grapefruit soda.", "price": "11" },
+  { "id": "transfusion", "name": "Transfusion", "description": "Citron vodka, lime juice, ginger ale, grape juice.", "price": "10" },
+  { "id": "bellini", "name": "Bellini", "description": "Peach purée, peach syrup, cava.", "price": "9" }
+]

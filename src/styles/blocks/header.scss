@@ -1,0 +1,39 @@
+.header {
+  height: 50px;
+  background-color: #f8b74f;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+
+  &__container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  
+
+  &__section {
+    display: flex;
+  }
+
+  &__icon {
+    height: 50px;
+    width: 50px;
+    
+  }
+
+  &__dropdown {
+    position: absolute;
+    top: 0;
+    right: 10px;
+
+    @include forMenu {
+      top: 50%; /* Center vertically */
+      transform: translateY(-50%);
+      z-index: 2;
+    }
+  }
+}

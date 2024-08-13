@@ -1,0 +1,6 @@
+[
+  { "id": "brazilian", "name": "Brazilian Dream", "description": "Lime, sugar syrup, condensed milk.", "price": "7" },
+  { "id": "cooler", "name": "Watermelon Cooler", "description": "Lime juice, lemon juice, watermelon syrup, soda, grenadine.", "price": "7" },
+  { "id": "isle", "name": "Blue Isle", "description": "Blue curacao syrup, lime juice, lemon juice, soda.", "price": "7" },
+  { "id": "kiwi", "name": "Kiwi cucumber punch", "description": "Kiwi syrup, cucumber syrup, lime juice, soda.", "price": "7" }
+]

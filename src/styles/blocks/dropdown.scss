@@ -1,0 +1,21 @@
+.dropdown {
+  font-family: Caveat;
+
+  &-menu {
+    --bs-dropdown-font-size: 25px;
+  }
+
+  &-toggle {
+    --bs-btn-font-size: 25px;
+    --bs-btn-border-color: none;
+  
+    &:hover {
+      color: white;
+    }
+  
+    &::after {
+      display: none;
+    }
+  }
+  
+}

@@ -1,0 +1,20 @@
+[
+  { "id": "Havana Club 3 Años", "name": "Havana Club 3 Años", "price": "8" },
+  { "id": "Captain Morgan Spiced Rum", "name": "Captain Morgan Spiced Rum", "price": "8" },
+  { "id": "Captain Morgan Dark Rum", "name": "Captain Morgan Dark Rum", "price": "8" },
+  { "id": "Brugal", "name": "Brugal", "price": "8" },
+  { "id": "Cacique", "name": "Cacique","price": "8" },
+  { "id": "Santa Teresa", "name": "Santa Teresa","price": "8" },
+  { "id": "Barceló", "name": "Barceló","price": "8" },
+  { "id": "Flor de Caña", "name": "Flor de Caña","price": "8" },
+  { "id": "Ron Legendario Elixir 7 años", "name": "Ron Legendario Elixir 7 años","price": "8" },
+  { "id": "Havana Club Especial", "name": "Havana Club Especial","price": "8" },
+  { "id": "Matusalem", "name": "Matusalem","price": "10" },
+  { "id": "Kraken Black Spiced", "name": "Kraken Black Spiced","price": "10" },
+  { "id": "Barceló Imperial", "name": "Barceló Imperial","priceSmall": "10", "priceBig":"13" },
+  { "id": "Diplomático Reserva", "name": "Diplomático Reserva","priceSmall": "10,5", "priceBig":"13,5" },
+  { "id": "Havana Club 7 Años", "name": "Havana Club 7 Años","priceSmall": "12", "priceBig":"15" },
+  { "id": "Johnnie Walker Double Black", "name": "Johnnie Walker Double Black","priceSmall": "15", "priceBig":"18" },
+  { "id": "Matusalem Gran Reserva 23", "name": "Matusalem Gran Reserva 23","priceSmall": "20", "priceBig":"23" },
+  { "id": "Zacapa XO", "name": "Zacapa XO","priceSmall": "33", "priceBig":"36" }
+]

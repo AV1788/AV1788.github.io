@@ -1,0 +1,90 @@
+@import './mixins/mixins';
+
+@import 'blocks/header';
+@import 'blocks/container';
+@import 'blocks/nav';
+@import 'blocks/icon';
+@import 'blocks/food';
+@import 'blocks/title';
+@import 'blocks/product';
+@import 'blocks/dropdown';
+@import 'blocks/dropdown-own';
+@import 'blocks/alcohol';
+@import 'blocks/cocktails';
+@import 'blocks/drinks';
+@import 'blocks/menu';
+@import 'blocks/accordion';
+
+h1 {
+  margin: 0;
+}
+
+.app {
+  background-image: url('../img/fon.png');
+  background-size: cover; 
+  
+  background-repeat: no-repeat;
+
+  &__menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  &__pict {
+    position: absolute;
+    width: 70px;
+    height: 100px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.btn.show {
+  border-color: transparent;
+}
+
+.dropdown-own__item .dropdown-own__flag {
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  margin-right: 10px;
+}
+
+
+.spinner-border {
+  position: fixed;
+  top: 50%;
+  right: 50%;
+  z-index: 4;
+}
+
+.open {
+  opacity: 1;
+  pointer-events: all;
+}
+
+
+.menu-nav {
+  list-style: none;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

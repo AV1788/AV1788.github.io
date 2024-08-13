@@ -1,0 +1,19 @@
+[
+  { "id": "Torres 10", "name": "Torres 10", "price": "6,5" },
+  { "id": "Terry Centenario", "name": "Terry Centenario", "price": "6,5" },
+  { "id": "Fundador", "name": "Fundador", "price": "6,5" },
+  { "id": "Veterano", "name": "Veterano", "price": "6,5" },
+  { "id": "Carlos 1", "name": "Carlos 1","price": "8,5" },
+  { "id": "Cardenal Mendoza", "name": "Cardenal Mendoza","price": "8,5" },
+  { "id": "Remy Martin", "name": "Remy Martin","price": "15" },
+  { "id": "Carlos 1 Imperial 15 XO", "name": "Carlos 1 Imperial 15 XO","price": "16" },
+  { "id": "1866", "name": "1866","price": "16" },
+  { "id": "Martel", "name": "Martel","price": "16" },
+  { "id": "Hennessy VSOP", "name": "Hennessy VSOP","price": "22" },
+  { "id": "Cardenal Mendoza Carta Real", "name": "Cardenal Mendoza Carta Real","price": "22" },
+  { "id": "Fundador Supremo 18", "name": "Fundador Supremo 18","price": "33" },
+  { "id": "Remy Martin XO", "name": "Remy Martin XO","price": "43" },
+  { "id": "Hennesy XO", "name": "Hennesy XO","price": "46" },
+  { "id": "Martell Cordon Bleu Extra", "name": "Martell Cordon Bleu Extra","price": "46" }
+  
+]

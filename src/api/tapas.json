@@ -1,0 +1,8 @@
+[
+  { "id": "russianSalad", "name": "Russian Salad", "description": "Boiled potato, 2 carrot, piquillo pepper, peas, pickles, green olives, tuna/bonito, shrimp, 2 boiled egg.", "price": "52" },
+  { "id": "asparagus", "name": "Asparagus and ham puff pastries", "description": "Sheet puff pastry, 2 asparagus, 1 slice serrano jam, 1 slice edam cheese, sesame.", "price": "53" },
+  { "id": "octopus", "name": "Galician-style octopus", "description": "Sliced octopus leg, sliced boiled potato, salt flakes, olive oil, red pepper.", "price": "54" },
+  { "id": "eggs", "name": "Stuffed eggs", "description": "3 eggs, tuna, mayo.", "price": "55" },
+  { "id": "iberian", "name": "Iberian ham and melon skewers", "description": "Melon, 1 slice serrano jam.", "price": "56" },
+  { "id": "marinera", "name": "Marinera", "description": "Russian salad, bread donuts, anchovy.", "price": "57" }
+]

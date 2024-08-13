@@ -1,0 +1,8 @@
+[
+  { "id": "virginDaiq", "name": "Virgin Daiquiri", "description": "Sprite, lime juice, sugar syrup, fruit purée.", "price": "8" },
+  { "id": "virginPina", "name": "Virgin Piña Colada", "description": "Pineapple juice, coconut purée, coconut milk.", "price": "8" },
+  { "id": "virginSun", "name": "Virgin Sunset", "description": "Cranberry juice, grenadine, orange juice.", "price": "8" },
+  { "id": "melody", "name": "Melon Melody", "description": "Lime juice, melon syrup, elderflower tonic water.", "price": "8" },
+  { "id": "apricot", "name": "Apricot Fizz", "description": "Peach purée, orange juice, lemon juice.", "price": "8" },
+  { "id": "bomb", "name": "Fruit bomb", "description": "Strawberry purée, orange juice, mango purée, pineapple juice, watermelon syrup.", "price": "9" }
+]

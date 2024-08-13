@@ -1,0 +1,7 @@
+[
+  { "id": "vanilla", "name": "Vanilla", "description": "Milk, vanilla ice cream, vanilla syrup.", "price": "7" },
+  { "id": "strawberry", "name": "Strawberry", "description": "Milk, strawberry puree, strawberry ice cream.", "price": "7" },
+  { "id": "coconut", "name": "Coconut", "description": "Milk, ice cream, coconut puree.", "price": "7" },
+  { "id": "chocolate", "name": "Chocolate", "description": "Milk, chocolate ice cream, chocolate syrup.", "price": "7" },
+  { "id": "lotus", "name": "Lotus", "description": "Milk, vanilla ice cream, lotus syrup.", "price": "7" }
+]
