@@ -27,12 +27,8 @@
   &__price {
     font-family: Montserrat;
     font-weight: 500;
-    font-size: 26px;
+    font-size: 23px;
     grid-column: 3 / 4;
-  
-    @include onPoint {
-      font-size: 23px;
-    }
   }
 
   &__space {
@@ -47,7 +43,7 @@
 
   &__description {
     display: block;
-    font-family: Caveat;
+    font-family: Neucha;
     text-align: left;
     font-size: 23px;
     line-height: 20px;
