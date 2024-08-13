@@ -4,11 +4,11 @@
   background-repeat: no-repeat;
 
   &--menu {
-    background-image: url(../../img/icons__menu/menu.png);
+    background-image: url(../../img/icons__menu/burger.svg);
   }
 
   &--close {
-    background-image: url(../../img/icons__menu/close.png);
+    background-image: url(../../img/icons__menu/close_new.png);
   }
 
   @include forMenu {
