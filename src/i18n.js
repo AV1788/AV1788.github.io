@@ -137,7 +137,7 @@ i18n
             },
             description: {
               vanilla: 'Milk, vanilla ice cream, vanilla syrup.',
-              strawberry: 'Milk, Strawberry puree, strawberry ice cream.',
+              strawberry: 'Milk, strawberry puree, strawberry ice cream.',
               coconut: 'Milk, ice cream, coconut puree.',
               chocolate: 'Milk, chocolate ice cream, chocolate syrup.',
               lotus: 'Milk, vanilla ice cream, lotus syrup.',
