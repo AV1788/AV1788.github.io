@@ -1,5 +1,5 @@
 [
-  { "id": "oldCuban", "name": "Old Cuban", "description": "Mint,ml falernum syrup, golden rum, lime juice, cava.", "price": "10" },
+  { "id": "oldCuban", "name": "Old Cuban", "description": "Mint,falernum syrup, golden rum, lime juice, cava.", "price": "10" },
   { "id": "frenchberry", "name": "Frenchberry", "description": "Indigo gin , lime juice, raspberry purée, soda.", "price": "10" },
   { "id": "collins", "name": "Grapefruit Collins", "description": "Indigo gin, grapefruit juice, lime juice, sugar syrup, orange bitter, tonic water.", "price": "11" },
   { "id": "aperol", "name": "Aperol tropicale", "description": "Rose gin, aperol, passion fruit syrup, pineapple juice, lambrusco, flower water.", "price": "13" },

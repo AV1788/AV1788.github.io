@@ -1,7 +1,7 @@
 [
-  { "id": "avocado", "name": "Avocado and anchovy", "description": "Avocado, anchovy, cherry tomato.", "price": "52" },
-  { "id": "caprese", "name": "Caprese", "description": "Pesto, burrata, serrano jam, basil, balsamic vinegar.", "price": "53" },
-  { "id": "eggplant", "name": "Eggplant and cod", "description": "Roasted eggplant, garlic, smoked cod olive oil.", "price": "54" },
-  { "id": "spanishClass", "name": "Spanish classic", "description": "Grated tomato, serrano jam, olive oil.", "price": "55" },
-  { "id": "brie", "name": "Brie", "description": "Roasted red pepper, brie cheese, honey(changeable), crushed walnuts.", "price": "56" }
+  { "id": "avocado", "name": "Avocado and anchovy", "description": "Avocado, anchovy, cherry tomato.", "price": "11" },
+  { "id": "caprese", "name": "Caprese", "description": "Pesto, burrata, serrano jam, basil, balsamic vinegar.", "price": "10" },
+  { "id": "eggplant", "name": "Eggplant and cod", "description": "Roasted eggplant, garlic, smoked cod olive oil.", "price": "10" },
+  { "id": "spanishClass", "name": "Spanish classic", "description": "Grated tomato, serrano jam, olive oil.", "price": "7" },
+  { "id": "brie", "name": "Brie", "description": "Roasted red pepper, brie cheese, honey(changeable), crushed walnuts.", "price": "12" }
 ]

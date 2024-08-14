@@ -1,6 +1,6 @@
 [
-  { "id": "cuban", "name": "Cuban sandwich", "description": "Dijon mustard, bread, sliced cooked jam, sliced salami, sliced roast pork, pickle, room temperature butter.", "price": "52" },
-  { "id": "tuna", "name": "Tuna sandwich", "description": "Tuna, mayo, cilantro, red onion, red pepper, capers, lemon juice, salt, black pepper.", "price": "53" },
-  { "id": "blt", "name": "BLT", "description": "Bacon, tomato, lettuce, mayo, salt, pepper.", "price": "54" },
-  { "id": "pearGorgon", "name": "Pear, gorgonzola and bacon sandwich", "description": "Bacon/jam, pear, gorgonzola cheese, butter.", "price": "55" }
+  { "id": "cuban", "name": "Cuban sandwich", "description": "Dijon mustard, bread, sliced cooked jam, sliced salami, sliced roast pork, pickle, room temperature butter.", "price": "12" },
+  { "id": "tuna", "name": "Tuna sandwich", "description": "Tuna, mayo, cilantro, red onion, red pepper, capers, lemon juice, salt, black pepper.", "price": "10" },
+  { "id": "blt", "name": "BLT", "description": "Bacon, tomato, lettuce, mayo, salt, pepper.", "price": "8" },
+  { "id": "pearGorgon", "name": "Pear, gorgonzola and bacon sandwich", "description": "Bacon/jam, pear, gorgonzola cheese, butter.", "price": "10" }
 ]

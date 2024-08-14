@@ -101,8 +101,8 @@ i18n
               daiquiri: 'White rum, maraschino liqueur, lime juice, sugar syrup, fruit purée.',
               margarita: 'Tequila, lime juice, triple sec, agave syrup.',
               whiskeySour: 'Rye whiskey, lemon juice, orange juice ,cane sugar syrup, egg white.',
-              amaretto: 'Amaretto, applejack, lemon juice, ml cane sugar, egg white.',
-              manhattan: 'Rye whiskey, sweet vermouth, 4 dashes of bitter.',
+              amaretto: 'Amaretto, applejack, lemon juice, cane sugar, egg white.',
+              manhattan: 'Rye whiskey, sweet vermouth, bitter.',
               laMarina: 'Vanilla vodka, blue curacao liqueur, elderflower liqueur, lemon juice, lavender syrup, ml violet liqueur, Lambrusco.',
               moscow: 'Vodka, lime juice, ginger beer.',
               cosmopolitan: 'Vodka citron, orange liqueur, cranberry juice, lime juice.',
@@ -113,17 +113,17 @@ i18n
           },
           sm_cocktails: {
             description: {
-              oldCuban: 'Mint,ml falernum syrup, golden rum, lime juice, Cava.',
+              oldCuban: 'Mint, falernum syrup, golden rum, lime juice, cava.',
               frenchberry: 'Indigo gin, lime juice, raspberry purée, soda.',
               collins: 'Indigo gin, grapefruit juice, lime juice, sugar syrup, orange bitter, tonic water.',
               aperol: 'Rose gin, Aperol, passion fruit syrup, pineapple juice, Lambrusco, flower water.',
-              alisa: 'Gin, lichi liqueur, lemon juice, lime juice, aloe vera juice, ml sugar sirup, karkade, rose water.',
+              alisa: 'Gin, lichi liqueur, lemon juice, lime juice, aloe vera juice, sugar sirup, karkade, rose water.',
               creamy: 'Vodka cherry, maraschino, condensed milk, lime juice, cherry purée.',
               juneBug: 'Coconut liqueur, melon liqueur, banana liqueur, lime juice, pineapple juice.',
               bahama: 'White rum, golden rum, coconut liqueur, orange juice, pineapple juice, grenadine.',
               paloma: 'Tequila, grapefruit juice, lime juice, agave syrup, grapefruit soda.',
               transfusion: 'Citron vodka, lime juice, ginger ale, grape juice.',
-              bellini: 'Peach purée, peach syrup, Cava.',
+              bellini: 'Peach purée, peach syrup, cava.',
               
             }
           },
@@ -218,7 +218,7 @@ i18n
               avocado: 'Авокадо, анчоусы, помидор черри.',
               caprese: 'Песто, буррата, хамон серрано, базилик, бальзамический уксус.',
               eggplant: 'Запечённый баклажан, чеснок, копчёная треска, оливковое масло.',
-              spanishClass: 'Тёртые помидоры, хамон Серрано, оливковое масло.',
+              spanishClass: 'Тёртые помидоры, хамон серрано, оливковое масло.',
               brie: 'Запечённый красный перец, сыр бри, мёд (по желанию), измельчённые грецкие орехи.',
 
             }
@@ -250,7 +250,7 @@ i18n
               margarita: 'Текила, сок лайма, triple sec, сироп агавы.',
               whiskeySour: 'Ржаной виски, сок лимона, апельсиновый сок, сироп из тростникового сахара, белок.',
               amaretto: 'Амаретто, яблочный бренди, сок лимона, сироп тростникового сахара, белок.',
-              manhattan: 'Ржаной виски, сладкий вермут, 4 капли bitter.',
+              manhattan: 'Ржаной виски, сладкий вермут, bitter.',
               laMarina: 'Ванильная водка, ликер blue curacao, ликер бузины, сок лимона, лавандовый сироп, сироп фиалки, Lambrusco.',
               moscow: 'Водка, сок лайма, имбирное пиво.',
               cosmopolitan: 'Водка citron, апельсиновый ликер, клюквенный сок, сок лайма.',
@@ -261,17 +261,17 @@ i18n
           },
           sm_cocktails: {
             description: {
-              oldCuban: 'Мята, мл сиропа falernum, золотой ром, сок лайма, Cava.',
+              oldCuban: 'Мята, сиропа falernum, золотой ром, сок лайма, cava.',
               frenchberry: 'Джин indigo, сок лайма, пюре малины, сода.',
               collins: 'Джин indigo, сок грейпфрута, сок лайма, сахарный сироп, апельсиновый bitter, тоник.',
               aperol: 'Розовый джин, Aperol, сироп маракуйи, ананасовый сок, Lambrusco, цветочная вода.',
-              alisa: 'Джин, ликер личи, сок лимона, сок лайма, сок алоэ вера, мл сахарного сиропа, каркаде, розовая вода.',
+              alisa: 'Джин, ликер личи, сок лимона, сок лайма, сок алоэ вера, сахарный сироп, каркаде, розовая вода.',
               creamy: 'Черешневая водка, maraschino, сгущенное молоко, сок лайма, пюре черешни.',
               juneBug: 'Кокосовый ликер, ликер дыни, банановый ликер, сок лайма, ананасовый сок.',
               bahama: 'Белый ром, золотой ром, кокосовый ликер, апельсиновый сок, ананасовый сок, гренадин.',
               paloma: 'Текила, сок грейпфрута, сок лайма, сироп агавы, грейпфрутовая сода.',
               transfusion: 'Водка citron, сок лайма, имбирный эль, виноградный сок.',
-              bellini: 'Персиковое, персиковый сироп, Cava.',
+              bellini: 'Персиковое, персиковый сироп, cava.',
               
             }
           },
@@ -321,7 +321,7 @@ i18n
           },
           header: {
             tapas: 'Tapas',
-            toasts: 'Tostas',
+            toasts: 'Tostadas',
             sandwiches: 'Sándwiches',
             gin: 'Ginebra',
             vodka: 'Vodka',
@@ -397,7 +397,7 @@ i18n
               margarita: 'Tequila, jugo de lima, triple sec, jarabe de agave.',
               whiskeySour: 'Whiskey de centeno, jugo de limón, jugo de naranja, jarabe de azúcar de caña, clara de huevo.',
               amaretto: 'Amaretto, applejack, jugo de limón, jarabe de azúcar de caña, clara de huevo.',
-              manhattan: 'Whiskey de centeno, vermut dulce, 4 gotas de bitter.',
+              manhattan: 'Whiskey de centeno, vermut dulce, bitter.',
               laMarina: 'Vodka de vainilla, licor de curazao azul, licor de flor de saúco, jugo de limón, jarabe de lavanda, licor de violeta, Lambrusco.',
               moscow: 'Vodka, jugo de lima, cerveza de jengibre.',
               cosmopolitan: 'Vodka citron, licor de naranja, jugo de arándano, jugo de lima.',
@@ -408,17 +408,17 @@ i18n
           },
           sm_cocktails: {
             description: {
-              oldCuban: 'Menta, ml de jarabe de falernum, ron dorado, jugo de lima, Cava.',
+              oldCuban: 'Menta, jarabe de falernum, ron dorado, jugo de lima, cava.',
               frenchberry: 'Ginebra Indigo, jugo de lima, puré de frambuesa, soda.',
               collins: 'Ginebra Indigo, jugo de toronja, jugo de lima, jarabe de azúcar, bitter de naranja, agua tónica.',
               aperol: 'Ginebra rosa, Aperol, jarabe de maracuyá, jugo de piña, Lambrusco, agua de flor.',
-              alisa: 'Ginebra, licor de lichí, jugo de limón, jugo de lima, jugo de aloe vera, ml de jarabe de azúcar, karkadé, agua de rosas.',
+              alisa: 'Ginebra, licor de lichí, jugo de limón, jugo de lima, jugo de aloe vera, jarabe de azúcar, karkadé, agua de rosas.',
               creamy: 'Vodka de cereza, maraschino, leche condensada, jugo de lima, puré de cereza.',
               juneBug: 'Licor de coco, licor de melón, licor de plátano, jugo de lima, jugo de piña.',
               bahama: 'Ron blanco, ron dorado, licor de coco, jugo de naranja, jugo de piña, grenadina.',
               paloma: 'Tequila, jugo de toronja, jugo de lima, jarabe de agave, soda de toronja.',
               transfusion: 'Vodka de limón, jugo de lima, ginger ale, jugo de uva.',
-              bellini: 'Puré de durazno, jarabe de durazno, Cava.',
+              bellini: 'Puré de durazno, jarabe de durazno, cava.',
               
             }
           },
@@ -544,7 +544,7 @@ i18n
               margarita: 'Tequila, jus de citron vert, triple sec, sirop d\'agave.',
               whiskeySour: 'Whisky de seigle, jus de citron, jus d\'orange, sirop de sucre de canne, blanc d\'œuf.',
               amaretto: 'Amaretto, applejack, jus de citron, sirop de sucre de canne, blanc d\'œuf.',
-              manhattan: 'Whisky de seigle, vermouth doux, 4 gouttes bitter.',
+              manhattan: 'Whisky de seigle, vermouth doux, bitter.',
               laMarina: 'Vodka à la vanille, liqueur de curaçao bleu, liqueur de sureau, jus de citron, sirop de lavande, liqueur de violette, Lambrusco.',
               moscow: 'Vodka, jus de citron vert, bière au gingembre.',
               cosmopolitan: 'Vodka citron, liqueur d\'orange, jus de canneberge, jus de citron vert.',
@@ -555,17 +555,17 @@ i18n
           },
           sm_cocktails: {
             description: {
-              oldCuban: 'Menthe, ml de sirop de falernum, rhum doré, jus de lime, cava.',
+              oldCuban: 'Menthe, sirop de falernum, rhum doré, jus de lime, cava.',
               frenchberry: 'Gin Indigo, jus de lime, purée de framboise, soda.',
               collins: 'Gin Indigo, jus de pamplemousse, jus de lime, sirop de sucre, bitter à l\'orange, eau tonique.',
               aperol: 'Gin rose, Aperol, sirop de fruit de la passion, jus d\'ananas, lambrusco, eau de fleur.',
-              alisa: 'Gin, liqueur de litchi, jus de citron, jus de lime, jus d\'aloe vera, ml de sirop de sucre, karkadé, eau de rose.',
+              alisa: 'Gin, liqueur de litchi, jus de citron, jus de lime, jus d\'aloe vera, sirop de sucre, karkadé, eau de rose.',
               creamy: 'Vodka cerise, maraschino, lait concentré, jus de lime, purée de cerise.',
               juneBug: 'Liqueur de coco, liqueur de melon, liqueur de banane, jus de lime, jus d\'ananas.',
               bahama: 'Rhum blanc, rhum doré, liqueur de coco, jus d\'orange, jus d\'ananas, grenadine.',
               paloma: 'Tequila, jus de pamplemousse, jus de lime, sirop d\'agave, soda au pamplemousse.',
               transfusion: 'Vodka citron, jus de lime, ginger ale, jus de raisin.',
-              bellini: 'Purée de pêche, sirop de pêche, Cava.',
+              bellini: 'Purée de pêche, sirop de pêche, cava.',
               
             }
           },

@@ -4,12 +4,12 @@
   { "id": "Absolut Citron", "name": "Absolut Citron", "price": "8,5" },
   { "id": "Absolut Vanilla", "name": "Absolut Vanilla", "price": "8,5" },
   { "id": "Absolut Cherry", "name": "Absolut Cherry","price": "8,5" },
-  { "id": "Cîroc", "name": "Cîroc","price": "13" },
-  { "id": "Cîroc Apple", "name": "Cîroc Apple","price": "13" },
-  { "id": "Cîroc Peach Vodka", "name": "Cîroc Peach Vodka","price": "13" },
-  { "id": "Cîroc Red Berry", "name": "Cîroc Red Berry","price": "13" },
-  { "id": "Cîroc Coconut", "name": "Cîroc Coconut","price": "13" },
-  { "id": "Cîroc Pineapple", "name": "Cîroc Pineapple","price": "13" },
-  { "id": "Belvedere", "name": "Belvedere","price": "13" },
-  { "id": "Grey Goose", "name": "Grey Goose","price": "13" }
+  { "id": "Grey Goose", "name": "Grey Goose","price": "13" },
+  { "id": "Cîroc", "name": "Cîroc","price": "18" },
+  { "id": "Cîroc Apple", "name": "Cîroc Apple","price": "18" },
+  { "id": "Cîroc Peach Vodka", "name": "Cîroc Peach Vodka","price": "18" },
+  { "id": "Cîroc Red Berry", "name": "Cîroc Red Berry","price": "18" },
+  { "id": "Cîroc Coconut", "name": "Cîroc Coconut","price": "18" },
+  { "id": "Cîroc Pineapple", "name": "Cîroc Pineapple","price": "18" },
+  { "id": "Belvedere", "name": "Belvedere","price": "20" }
 ]
