@@ -43,9 +43,10 @@
 
   &__description {
     display: block;
-    font-family: Neucha;
+    font-family: Roboto;
+    font-weight: 300;
     text-align: left;
-    font-size: 23px;
+    font-size: 21px;
     line-height: 20px;
   
     @include onPoint {

@@ -21,9 +21,10 @@ h1 {
 
 .app {
   background-image: url('../img/fon.png');
-  background-size: cover; 
+  background-size: contain; 
+  background-position: right;
   
-  background-repeat: no-repeat;
+  //background-repeat: no-repeat;
 
   &__menu {
     position: fixed;
