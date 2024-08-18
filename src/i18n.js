@@ -46,16 +46,16 @@ i18n
               asparagus: 'Asparagus and ham puff pastries',
               octopus: 'Galician-style octopus',
               eggs: 'Stuffed eggs',
-              iberian: 'Iberian ham and melon skewers',
+              iberian: 'Iberian ham with melon',
               marinera: 'Marinera',
             },
             description: {
-              russianSalad: 'Boiled potato, carrot, piquillo pepper, peas, pickles, green olives, tuna/bonito, shrimp, boiled egg.',
-              asparagus: 'Sheet puff pastry, asparagus, serrano jam, edam cheese, sesame.',
+              russianSalad: 'Boiled potato, carrot, piquillo pepper, peas, pickles, green olives, tuna, shrimp, boiled egg.',
+              asparagus: 'Sheet puff pastry, asparagus, serrano ham, edam cheese, sesame.',
               octopus: 'Octopus leg, boiled potato, salt flakes, olive oil, red pepper.',
               eggs: 'Eggs, tuna, mayo.',
-              iberian: 'Melon, serrano jam.',
-              marinera: 'Russian salad, bread donuts, anchovy.',
+              iberian: 'Melon, serrano ham.',
+              marinera: 'Russian salad, bagel, anchovy.',
             },
           },
           toasts: {
@@ -68,10 +68,10 @@ i18n
             },
             description: {
               avocado: 'Avocado, anchovy, cherry tomato.',
-              caprese: 'Pesto, burrata, serrano jam, basil, balsamic vinegar.',
-              eggplant: 'Roasted eggplant, garlic, smoked cod olive oil.',
-              spanishClass: 'Grated tomato, serrano jam, olive oil.',
-              brie: 'Roasted red pepper, brie cheese, honey(changeable), crushed walnuts.',
+              caprese: 'Pesto, burrata, serrano ham, basil, balsamic vinegar.',
+              eggplant: 'Roasted eggplant, garlic, smoked cod, olive oil.',
+              spanishClass: 'Grated tomato, serrano ham, olive oil.',
+              brie: 'Roasted red pepper, brie cheese, honey, crushed walnuts.',
 
             }
           },
@@ -84,10 +84,10 @@ i18n
 
             },
             description: {
-              cuban: 'Dijon mustard, bread, sliced cooked jam, sliced salami, sliced roast pork, pickle, room temperature butter.',
+              cuban: 'Dijon mustard, bread, sliced cooked ham, sliced salami, sliced roast pork, pickle, room temperature butter.',
               tuna: 'Tuna, mayo, cilantro, red onion, red pepper, capers, lemon juice, salt, black pepper.',
               blt: 'Bacon, tomato, lettuce, mayo, salt, pepper.',
-              pearGorgon: 'Bacon/jam, half a pear, gorgonzola cheese, butter.',
+              pearGorgon: 'Bacon/ham, half a pear, gorgonzola cheese, butter.',
               
 
             }
@@ -103,7 +103,7 @@ i18n
               whiskeySour: 'Rye whiskey, lemon juice, orange juice ,cane sugar syrup, egg white.',
               amaretto: 'Amaretto, applejack, lemon juice, cane sugar, egg white.',
               manhattan: 'Rye whiskey, sweet vermouth, bitter.',
-              laMarina: 'Vanilla vodka, blue curacao liqueur, elderflower liqueur, lemon juice, lavender syrup, ml violet liqueur, Lambrusco.',
+              laMarina: 'Vanilla vodka, blue curacao liqueur, elderflower liqueur, lemon juice, lavender syrup, violet liqueur, Lambrusco.',
               moscow: 'Vodka, lime juice, ginger beer.',
               cosmopolitan: 'Vodka citron, orange liqueur, cranberry juice, lime juice.',
               pinkLady: 'Gin, applejack, lemon juice , grenadine, egg white.',
@@ -117,7 +117,7 @@ i18n
               frenchberry: 'Indigo gin, lime juice, raspberry purée, soda.',
               collins: 'Indigo gin, grapefruit juice, lime juice, sugar syrup, orange bitter, tonic water.',
               aperol: 'Rose gin, Aperol, passion fruit syrup, pineapple juice, Lambrusco, flower water.',
-              alisa: 'Gin, lichi liqueur, lemon juice, lime juice, aloe vera juice, sugar sirup, karkade, rose water.',
+              alisa: 'Gin, lichi liqueur, lemon juice, lime juice, aloe vera juice, sugar sirup, karkade, flower water.',
               creamy: 'Vodka cherry, maraschino, condensed milk, lime juice, cherry purée.',
               juneBug: 'Coconut liqueur, melon liqueur, banana liqueur, lime juice, pineapple juice.',
               bahama: 'White rum, golden rum, coconut liqueur, orange juice, pineapple juice, grenadine.',
@@ -193,16 +193,16 @@ i18n
               asparagus: 'Слоёные пирожки со спаржей и ветчиной',
               octopus: 'Осьминог по-галицийски',
               eggs: 'Фаршированные яйца',
-              iberian: 'Шпажки с иберийской ветчиной и дыней',
+              iberian: 'Иберийский хамон с дыней',
               marinera: 'Marinera',
             },
             description: {
-              russianSalad: 'Отварной картофель, морковь, пикульо перец, горошек, соленые огурцы, зеленые оливки, тунец/бонито, креветки, вареные яйца.',
+              russianSalad: 'Отварной картофель, морковь, пикульо перец, горошек, соленые огурцы, зеленые оливки, тунец, креветки, вареные яйца.',
               asparagus: 'Лист слоеного теста, спаржа, хамон Серрано, сыр эдам, кунжут.',
               octopus: 'Нарезанная ножка осьминога, нарезанный отварной картофель, солевые хлопья, оливковое масло, красный перец.',
               eggs: 'Яйца, тунец, майонез.',
               iberian: 'Дыня, хамон серрано.',
-              marinera: 'Оливье, хлебные пончики, анчоусы.',
+              marinera: 'Оливье, багель, анчоусы.',
   
             }
           },
@@ -219,7 +219,7 @@ i18n
               caprese: 'Песто, буррата, хамон серрано, базилик, бальзамический уксус.',
               eggplant: 'Запечённый баклажан, чеснок, копчёная треска, оливковое масло.',
               spanishClass: 'Тёртые помидоры, хамон серрано, оливковое масло.',
-              brie: 'Запечённый красный перец, сыр бри, мёд (по желанию), измельчённые грецкие орехи.',
+              brie: 'Запечённый красный перец, сыр бри, мёд, измельчённые грецкие орехи.',
 
             }
           },
@@ -245,15 +245,15 @@ i18n
               mojito: 'Белый ром, сок лайма, сахарный сироп, мята, сироп киви, спрайт.',
               pornstar: 'Ванильная водка, ликер из маракуйи, пюре из маракуйи, ванильный сироп, сок лайма, белок.',
               espresso: 'Джин/Бурбон/Водка/Ром, шот кофе, кофейный ликер, карамельный сироп, солевой раствор.',
-              colada: 'Белый ром, кокосовые сливки, ананасовый сок.',
+              colada: 'Белый ром, кокосовый крем, ананасовый сок.',
               daiquiri: 'Белый ром, ликер maraschino, сок лайма, сахарный сироп, фруктовое пюре.',
               margarita: 'Текила, сок лайма, triple sec, сироп агавы.',
               whiskeySour: 'Ржаной виски, сок лимона, апельсиновый сок, сироп из тростникового сахара, белок.',
               amaretto: 'Амаретто, яблочный бренди, сок лимона, сироп тростникового сахара, белок.',
               manhattan: 'Ржаной виски, сладкий вермут, bitter.',
-              laMarina: 'Ванильная водка, ликер blue curacao, ликер бузины, сок лимона, лавандовый сироп, сироп фиалки, Lambrusco.',
+              laMarina: 'Ванильная водка, ликер blue curacao, ликер бузины, сок лимона, лавандовый сироп, ликер фиалковый, Lambrusco.',
               moscow: 'Водка, сок лайма, имбирное пиво.',
-              cosmopolitan: 'Водка citron, апельсиновый ликер, клюквенный сок, сок лайма.',
+              cosmopolitan: 'Цитрусовая водка, апельсиновый ликер, клюквенный сок, сок лайма.',
               pinkLady: 'Джин, яблочный бренди, сок лимона, гренадин, белок.',
               negroni: 'Джин indigo, Luxardo Bitter Bianco, сладкий вермут, черничное пюре.',
               brambleberry: 'Розовый джин, ежевичный ликер, малиновый ликер, сахарный сироп, сок лимона.',
@@ -261,7 +261,7 @@ i18n
           },
           sm_cocktails: {
             description: {
-              oldCuban: 'Мята, сиропа falernum, золотой ром, сок лайма, cava.',
+              oldCuban: 'Мята, сироп falernum, золотой ром, сок лайма, cava.',
               frenchberry: 'Джин indigo, сок лайма, пюре малины, сода.',
               collins: 'Джин indigo, сок грейпфрута, сок лайма, сахарный сироп, апельсиновый bitter, тоник.',
               aperol: 'Розовый джин, Aperol, сироп маракуйи, ананасовый сок, Lambrusco, цветочная вода.',
@@ -270,7 +270,7 @@ i18n
               juneBug: 'Кокосовый ликер, ликер дыни, банановый ликер, сок лайма, ананасовый сок.',
               bahama: 'Белый ром, золотой ром, кокосовый ликер, апельсиновый сок, ананасовый сок, гренадин.',
               paloma: 'Текила, сок грейпфрута, сок лайма, сироп агавы, грейпфрутовая сода.',
-              transfusion: 'Водка citron, сок лайма, имбирный эль, виноградный сок.',
+              transfusion: 'Цитрусовая водка, сок лайма, имбирный эль, виноградный сок.',
               bellini: 'Персиковое, персиковый сироп, cava.',
               
             }
@@ -305,7 +305,7 @@ i18n
               virginPina: 'Сок ананаса, пюре кокоса, кокосовое молоко.',
               virginSun: 'Сок клюквы, гренадин, апельсиновый сок.',
               melody: 'Сок лайма, сироп дыни, тоник с цветами бузины.',
-              apricot: 'Пюре абрикоса, апельсиновый сок, сок лимона.',
+              apricot: 'Персиковое пюре, апельсиновый сок, сок лимона.',
               bomb: 'Пюре клубники, апельсиновый сок, пюре манго, сок ананаса, сироп арбуза.',
             }
           },
@@ -336,20 +336,20 @@ i18n
           },
           tapas: {
             name: {
-              russianSalad: 'Ensalada rusa',
+              russianSalad: 'Ensaladilla rusa',
               asparagus: 'Hojaldres de espárragos y jamón',
               octopus: 'Pulpo a la gallega',
               eggs: 'Huevos rellenos',
-              iberian: 'Brochetas de jamón ibérico y melón',
+              iberian: 'Jamón ibérico con melón',
               marinera: 'Marinera',
             },
             description: {
-              russianSalad: 'Patata hervida, zanahoria, pimientos del piquillo, guisantes, pepinillos, aceitunas verdes, atún/bonito, gambas, huevos cocidos.',
+              russianSalad: 'Patata hervida, zanahoria, pimientos del piquillo, guisantes, pepinillos, aceitunas verdes, atún, gambas, huevos cocidos.',
               asparagus: 'Lámina de hojaldre, espárrago, jamón serrano, queso edam, sésamo.',
               octopus: 'Pierna de pulpo en rodajas, papa hervida en rodajas, copos de sal, aceite de oliva, pimentón rojo.',
               eggs: 'Huevos, atún, mayonesa.',
               iberian: 'Melón, jamón serrano.',
-              marinera: 'Ensalada rusa, donuts de pan, anchoas.',
+              marinera: 'Ensaladilla rusa, bagel, anchoas.',
   
             }
           },
@@ -366,7 +366,7 @@ i18n
               caprese: 'Pesto, burrata, jamón serrano, albahaca, vinagre balsámico.',
               eggplant: 'Berenjena asada, ajo, bacalao ahumado, aceite de oliva.',
               spanishClass: 'Tomate rallado, jamón serrano, aceite de oliva.',
-              brie: 'Pimiento rojo asado, queso brie, miel (opcional), nueces trituradas.',
+              brie: 'Pimiento rojo asado, queso brie, miel, nueces trituradas.',
 
             }
           },
@@ -380,7 +380,7 @@ i18n
             },
             description: {
               cuban: 'Mostaza de Dijon, pan, jamón cocido en rodajas, salami en rodajas, cerdo asado en rodajas, pepinillo, mantequilla a temperatura ambiente.',
-              tuna: 'Atún, mayonesa, cilantro, cebolla roja, pimiento rojo, alcaparras, jugo de limón, sal, pimienta negra.',
+              tuna: 'Atún, mayonesa, cilantro, cebolla roja, pimiento rojo, alcaparras, zumo de limón, sal, pimienta negra.',
               blt: 'Beicon, tomate, lechuga, mayonesa, sal, pimienta.',
               pearGorgon: 'Beicon/jamón, media pera, queso gorgonzola, mantequilla.',
               
@@ -389,36 +389,36 @@ i18n
           },
           cl_cocktails: {
             description: {
-              mojito: 'Ron blanco, jugo de lima, jarabe de azúcar, menta, jarabe de kiwi, sprite.',
-              pornstar: 'Vodka de vainilla, licor de maracuyá, puré de maracuyá, jarabe de vainilla, jugo de lima, clara de huevo.',
-              espresso: 'Ginebra/Bourbon/Vodka/Ron, shot de café, licor de café, jarabe de caramelo, solución salina.',
-              colada: 'Ron blanco, crema de coco, jugo de piña.',
-              daiquiri: 'Ron blanco, licor maraschino, jugo de lima, jarabe de azúcar, puré de frutas.',
-              margarita: 'Tequila, jugo de lima, triple sec, jarabe de agave.',
-              whiskeySour: 'Whiskey de centeno, jugo de limón, jugo de naranja, jarabe de azúcar de caña, clara de huevo.',
-              amaretto: 'Amaretto, applejack, jugo de limón, jarabe de azúcar de caña, clara de huevo.',
+              mojito: 'Ron blanco, zumo de lim, sirope de azúcar, menta, sirope de kiwi, sprite.',
+              pornstar: 'Vodka de vainilla, licor de maracuyá, puré de maracuyá, sirope de vainilla, zumo de lim, clara de huevo.',
+              espresso: 'Ginebra/Bourbon/Vodka/Ron, shot de café, licor de café, sirope de caramelo, solución salina.',
+              colada: 'Ron blanco, crema de coco, zumo de piña.',
+              daiquiri: 'Ron blanco, licor maraschino, zumo de lim, sirope de azúcar, puré de frutas.',
+              margarita: 'Tequila, zumo de lim, triple sec, sirope de agave.',
+              whiskeySour: 'Whiskey de centeno, zumo de limón, zumo de naranja, sirope de azúcar de caña, clara de huevo.',
+              amaretto: 'Amaretto, applejack, zumo de limón, sirope de azúcar de caña, clara de huevo.',
               manhattan: 'Whiskey de centeno, vermut dulce, bitter.',
-              laMarina: 'Vodka de vainilla, licor de curazao azul, licor de flor de saúco, jugo de limón, jarabe de lavanda, licor de violeta, Lambrusco.',
-              moscow: 'Vodka, jugo de lima, cerveza de jengibre.',
-              cosmopolitan: 'Vodka citron, licor de naranja, jugo de arándano, jugo de lima.',
-              pinkLady: 'Ginebra, applejack, jugo de limón, granadina, clara de huevo.',
+              laMarina: 'Vanilla vodka, licor blue curacao, licor de flor de saúco, zumo de limón, sirope de lavanda, licor de violeta, Lambrusco.',
+              moscow: 'Vodka, zumo de lim, cerveza de jengibre.',
+              cosmopolitan: 'Vodka citron, licor de naranja, zumo de arándano, zumo de lim.',
+              pinkLady: 'Ginebra, applejack, zumo de limón, granadina, clara de huevo.',
               negroni: 'Ginebra índigo, Luxardo Bitter Bianco, vermut dulce, puré de arándano.',
-              brambleberry: 'Ginebra rosada, licor de mora, licor de frambuesa, jarabe de azúcar, jugo de limón.',
+              brambleberry: 'Ginebra rosada, licor de mora, licor de frambuesa, sirope de azúcar, zumo de limón.',
             }
           },
           sm_cocktails: {
             description: {
-              oldCuban: 'Menta, jarabe de falernum, ron dorado, jugo de lima, cava.',
-              frenchberry: 'Ginebra Indigo, jugo de lima, puré de frambuesa, soda.',
-              collins: 'Ginebra Indigo, jugo de toronja, jugo de lima, jarabe de azúcar, bitter de naranja, agua tónica.',
-              aperol: 'Ginebra rosa, Aperol, jarabe de maracuyá, jugo de piña, Lambrusco, agua de flor.',
-              alisa: 'Ginebra, licor de lichí, jugo de limón, jugo de lima, jugo de aloe vera, jarabe de azúcar, karkadé, agua de rosas.',
-              creamy: 'Vodka de cereza, maraschino, leche condensada, jugo de lima, puré de cereza.',
-              juneBug: 'Licor de coco, licor de melón, licor de plátano, jugo de lima, jugo de piña.',
-              bahama: 'Ron blanco, ron dorado, licor de coco, jugo de naranja, jugo de piña, grenadina.',
-              paloma: 'Tequila, jugo de toronja, jugo de lima, jarabe de agave, soda de toronja.',
-              transfusion: 'Vodka de limón, jugo de lima, ginger ale, jugo de uva.',
-              bellini: 'Puré de durazno, jarabe de durazno, cava.',
+              oldCuban: 'Menta, sirope de falernum, ron dorado, zumo de lim, cava.',
+              frenchberry: 'Ginebra Indigo, zumo de lim, puré de frambuesa, soda.',
+              collins: 'Ginebra Indigo, zumo de pomelo, zumo de lim, sirope de azúcar, bitter de naranja, tónica.',
+              aperol: 'Ginebra rosa, Aperol, sirope de maracuyá, zumo de piña, Lambrusco, agua de flor.',
+              alisa: 'Ginebra, licor de lichí, zumo de limón, zumo de lim, zumo de aloe vera, sirope de azúcar, karkadé, agua de rosas.',
+              creamy: 'Vodka de cereza, maraschino, leche condensada, zumo de lim, puré de cereza.',
+              juneBug: 'Licor de coco, licor de melón, licor de plátano, zumo de lim, zumo de piña.',
+              bahama: 'Ron blanco, ron dorado, licor de coco, zumo de naranja, zumo de piña, grenadina.',
+              paloma: 'Tequila, zumo de pomelo, zumo de lim, sirope de agave, soda de pomelo.',
+              transfusion: 'Vodka de limón, zumo de lim, ginger ale, zumo de uva.',
+              bellini: 'Puré de melocotón, sirope de melocotón, cava.',
               
             }
           },
@@ -431,29 +431,29 @@ i18n
               lotus: 'Loto',
             },
             description: {
-              vanilla: 'Leche, helado de vainilla, jarabe de vainilla.',
+              vanilla: 'Leche, helado de vainilla, sirope de vainilla.',
               strawberry: 'Leche, puré de fresa, helado de fresa.',
               coconut: 'Leche, helado, puré de coco.',
-              chocolate: 'Leche, helado de chocolate, jarabe de chocolate.',
-              lotus: 'Leche, helado de vainilla, jarabe de lotus.',
+              chocolate: 'Leche, helado de chocolate, sirope de chocolate.',
+              lotus: 'Leche, helado de vainilla, sirope de lotus.',
             }
           },
           lemonades: {
             description: {
-              brazilian: 'Lima, jarabe de azúcar, leche condensada.',
-              cooler: 'Jugo de lima, jugo de limón, jarabe de sandía, soda, grenadina.',
-              isle: 'Jarabe de curaçao azul, jugo de lima, jugo de limón, soda.',
-              kiwi: 'Jarabe de kiwi, jarabe de pepino, jugo de lima, soda.',
+              brazilian: 'Lima, sirope de azúcar, leche condensada.',
+              cooler: 'Zumo de lim, zumo de limón, sirope de sandía, soda, grenadina.',
+              isle: 'Sirope de curaçao azul, zumo de lim, zumo de limón, soda.',
+              kiwi: 'Sirope de kiwi, sirope de pepino, zumo de lim, soda.',
             }
           },
           mocktails: {
             description: {
-              virginDaiq: 'Sprite, jugo de lima, jarabe de azúcar, puré de fruta.',
-              virginPina: 'Jugo de piña, puré de coco, leche de coco.',
-              virginSun: 'Jugo de arándano, grenadina, jugo de naranja.',
-              melody: 'Jugo de lima, jarabe de melón, agua tónica con flor de saúco.',
-              apricot: 'Puré de albaricoque, jugo de naranja, jugo de limón.',
-              bomb: 'Puré de fresa, jugo de naranja, puré de mango, jugo de piña, jarabe de sandía.',
+              virginDaiq: 'Sprite, zumo de lim, sirope de azúcar, puré de fruta.',
+              virginPina: 'zumo de piña, puré de coco, leche de coco.',
+              virginSun: 'zumo de arándano, grenadina, zumo de naranja.',
+              melody: 'Zumo de lim, sirope de melón, agua tónica con flor de saúco.',
+              apricot: 'Puré de albaricoque, zumo de naranja, zumo de limón.',
+              bomb: 'Puré de fresa, zumo de naranja, puré de mango, zumo de piña, sirope de sandía.',
             }
           },
         }
@@ -487,16 +487,16 @@ i18n
               asparagus: 'Feuilletés aux asperges et jambon',
               octopus: 'Poulpe à la galicienne',
               eggs: 'Œufs farcis',
-              iberian: 'Brochettes de jambon ibérique et melon',
+              iberian: 'Jambon ibérique avec melon',
               marinera: 'Marinera',
             },
             description: {
-              russianSalad: 'Pomme de terre bouillie, carotte, poivrons piquillos, petits pois, cornichons, olives vertes, thon/bonite, crevettes, œufs durs.',
+              russianSalad: 'Pomme de terre bouillie, carotte, poivrons piquillos, petits pois, cornichons, olives vertes, thon, crevettes, œufs durs.',
               asparagus: 'Feuille de pâte feuilletée, asperge, jambon serrano, fromage edam, sésame.',
               octopus: 'Tentacule de poulpe tranché, pomme de terre bouillie en tranches, flocons de sel, huile d*olive, piment rouge.',
               eggs: 'Œuf, thon, mayonnaise.',
               iberian: 'Melon, jambon serrano.',
-              marinera: 'Salade russe, beignets de pain, anchois.',
+              marinera: 'Salade russe, bagel, anchois.',
   
             }
           },
@@ -513,7 +513,7 @@ i18n
               caprese: 'Pesto, burrata, jambon serrano, basilic, vinaigre balsamique.',
               eggplant: 'Aubergine rôtie, ail, morue fumée, huile d\'olive.',
               spanishClass: 'Tomate râpée, jambon serrano, huile d\'olive.',
-              brie: 'Poivron rouge rôti, fromage brie, miel (au choix), noix concassées.',
+              brie: 'Poivron rouge rôti, fromage brie, miel, noix concassées.',
 
             }
           },
