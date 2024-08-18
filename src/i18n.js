@@ -54,7 +54,7 @@ i18n
               asparagus: 'Sheet puff pastry, asparagus, serrano ham, edam cheese, sesame.',
               octopus: 'Octopus leg, boiled potato, salt flakes, olive oil, red pepper.',
               eggs: 'Eggs, tuna, mayo.',
-              iberian: 'Melon, serrano ham.',
+              iberian: 'Melon, iberian ham.',
               marinera: 'Russian salad, bagel, anchovy.',
             },
           },
@@ -201,7 +201,7 @@ i18n
               asparagus: 'Лист слоеного теста, спаржа, хамон Серрано, сыр эдам, кунжут.',
               octopus: 'Нарезанная ножка осьминога, нарезанный отварной картофель, солевые хлопья, оливковое масло, красный перец.',
               eggs: 'Яйца, тунец, майонез.',
-              iberian: 'Дыня, хамон серрано.',
+              iberian: 'Дыня, хамон иберико.',
               marinera: 'Оливье, багель, анчоусы.',
   
             }
@@ -348,7 +348,7 @@ i18n
               asparagus: 'Lámina de hojaldre, espárrago, jamón serrano, queso edam, sésamo.',
               octopus: 'Pierna de pulpo en rodajas, papa hervida en rodajas, copos de sal, aceite de oliva, pimentón rojo.',
               eggs: 'Huevos, atún, mayonesa.',
-              iberian: 'Melón, jamón serrano.',
+              iberian: 'Melón, jamón iberico.',
               marinera: 'Ensaladilla rusa, bagel, anchoas.',
   
             }
@@ -495,7 +495,7 @@ i18n
               asparagus: 'Feuille de pâte feuilletée, asperge, jambon serrano, fromage edam, sésame.',
               octopus: 'Tentacule de poulpe tranché, pomme de terre bouillie en tranches, flocons de sel, huile d*olive, piment rouge.',
               eggs: 'Œuf, thon, mayonnaise.',
-              iberian: 'Melon, jambon serrano.',
+              iberian: 'Melon, jambon ibérique.',
               marinera: 'Salade russe, bagel, anchois.',
   
             }
