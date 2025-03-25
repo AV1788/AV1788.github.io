@@ -8,7 +8,6 @@
   { "id": "whiskeySour", "name": "Whiskey sour", "description": "Rye whiskey, lemon juice, orange juice ,cane sugar syrup, egg white.", "price": "12" },
   { "id": "amaretto", "name": "Amaretto sour", "description": "Amaretto, applejack, lemon juice, ml cane sugar, egg white.", "price": "10" },
   { "id": "manhattan", "name": "Manhattan", "description": "Rye whiskey, sweet vermouth, 4 dashes of bitter.", "price": "10" },
-  { "id": "laMarina", "name": "La Marina", "description": "Vanilla vodka, blue curacao liqueur, elderflower liqueur, lemon juice, lavender syrup, ml violet liqueur, lambrusco.", "price": "13" },
   { "id": "moscow", "name": "Moscow mule", "description": "Vodka, lime juice, ginger beer.", "price": "9" },
   { "id": "cosmopolitan", "name": "Cosmopolitan", "description": "Vodka citron, orange liqueur, cranberry juice, lime juice.", "price": "10" },
   { "id": "pinkLady", "name": "Pink Lady", "description": "Gin, applejack, lemon juice , grenadine, egg white.", "price": "10" },

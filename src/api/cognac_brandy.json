@@ -11,9 +11,6 @@
   { "id": "Martel", "name": "Martel","price": "16" },
   { "id": "Hennessy VSOP", "name": "Hennessy VSOP","price": "22" },
   { "id": "Cardenal Mendoza Carta Real", "name": "Cardenal Mendoza Carta Real","price": "22" },
-  { "id": "Fundador Supremo 18", "name": "Fundador Supremo 18","price": "33" },
-  { "id": "Remy Martin XO", "name": "Remy Martin XO","price": "43" },
-  { "id": "Hennesy XO", "name": "Hennesy XO","price": "46" },
-  { "id": "Martell Cordon Bleu Extra", "name": "Martell Cordon Bleu Extra","price": "46" }
+  { "id": "Fundador Supremo 18", "name": "Fundador Supremo 18","price": "33" }
   
 ]

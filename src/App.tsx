@@ -2,9 +2,6 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import { useTranslation } from 'react-i18next';
 import './styles/App.scss';
-import tapasFromServer from './api/tapas.json';
-import toastsFromServer from './api/toasts.json';
-import sandwichesFromServer from './api/sandwiches.json';
 import ginFromServer from './api/gin.json';
 import vodkaFromServer from './api/vodka.json';
 import whiskeyFromServer from './api/whiskey.json';
@@ -86,7 +83,6 @@ export const App = () => {
 
                 <ul className="dropdown-menu">
                   <li><a className="dropdown-item" href="#cl_cocktails">{t(`header.cl_cocktails`)}</a></li>
-                  <li><a className="dropdown-item" href="#sm_cocktails">{t(`header.sm_cocktails`)}</a></li>
                   <li><a className="dropdown-item" href="#mocktails">{t(`header.mocktails`)}</a></li>
                 </ul>
               </div>
@@ -114,7 +110,6 @@ export const App = () => {
 
                 <ul className="dropdown-menu">
                   <li><a className="dropdown-item" href="#lemonades">{t(`header.lemonades`)}</a></li>
-                  <li><a className="dropdown-item" href="#milkshakes">{t(`header.milkshakes`)}</a></li>
                 </ul>
               </div>
             </li>
@@ -149,11 +144,6 @@ export const App = () => {
                       <li className="accordion-body__item">
                         <a href="#cl_cocktails" className="accordion-body__link" onClick={closeMenu}>
                           {t('header.cl_cocktails')}
-                        </a>
-                      </li>
-                      <li className="accordion-body__item">
-                        <a href="#sm_cocktails" className="accordion-body__link" onClick={closeMenu}>
-                          {t('header.sm_cocktails')}
                         </a>
                       </li>
                       <li className="accordion-body__item">
@@ -222,11 +212,7 @@ export const App = () => {
                         {t('header.lemonades')}
                         </a>
                       </li>
-                      <li className="accordion-body__item">
-                        <a href="#milkshakes" className="accordion-body__link" onClick={closeMenu}>
-                        {t('header.milkshakes')}
-                        </a>
-                      </li>
+                      
                     </ul>
                    </div>
                  </div>
@@ -250,22 +236,6 @@ export const App = () => {
               </div>
 
               <span className="product__description">{t(`cl_cocktails.description.${clCocktails.id}`)}
-              </span>
-            </li>
-            ))}
-          </ul>
-
-          <h1 className="cocktails__title title" id="sm_cocktails">{t('header.sm_cocktails')}</h1>
-          <ul className="cocktails__list">
-            {smCocktailsFromServer.map(smCocktails => (
-              <li className="product">
-              <div className="product__main">
-                <span className="product__name">{smCocktails.name}</span>
-                <span className="product__space"></span>
-                <span className="product__price">{smCocktails.price}€</span>
-              </div>
-
-              <span className="product__description">{t(`sm_cocktails.description.${smCocktails.id}`)}
               </span>
             </li>
             ))}
@@ -307,21 +277,7 @@ export const App = () => {
             ))}
           </ul>
 
-          <h1 className="drinks__title title" id="milkshakes">{t('header.milkshakes')}</h1>
-          <ul className="drinks__list">
-            {milkshakesFromServer.map(milkshakes => (
-              <li className="product">
-              <div className="product__main">
-                <span className="product__name">{t(`milkshakes.name.${milkshakes.id}`)}</span>
-                <span className="product__space"></span>
-                <span className="product__price">{milkshakes.price}€</span>
-              </div>
-
-              <span className="product__description">{t(`milkshakes.description.${milkshakes.id}`)}
-              </span>
-            </li>
-            ))}
-          </ul>
+          
         </div>
         </section>
 
