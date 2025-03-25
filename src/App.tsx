@@ -118,19 +118,6 @@ export const App = () => {
                 </ul>
               </div>
             </li>
-            <li>
-              <div className="dropdown">
-                <a className="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                  {t(`main.food`)}
-                </a>
-
-                <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="#tapas">{t(`header.tapas`)}</a></li>
-                  <li><a className="dropdown-item" href="#toasts">{t(`header.toasts`)}</a></li>
-                  <li><a className="dropdown-item" href="#sandwiches">{t(`header.sandwiches`)}</a></li>
-                </ul>
-              </div>
-            </li>
           </ul>
         </nav>
 
@@ -245,36 +232,6 @@ export const App = () => {
                  </div>
               </div>
             </li>
-            <li className="menu-nav__item">
-              <div className="accordion-item">
-                <h2 className="accordion-header">
-                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    {t('main.food')}
-                  </button>
-                </h2>
-                 <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                   <div className="accordion-body">
-                   <ul className="accordion-body__list">
-                      <li className="accordion-body__item">
-                        <a href="#tapas" className="accordion-body__link" onClick={closeMenu}>
-                        {t('header.tapas')}
-                        </a>
-                      </li>
-                      <li className="accordion-body__item">
-                        <a href="#toasts" className="accordion-body__link" onClick={closeMenu}>
-                        {t('header.toasts')}
-                        </a>
-                      </li>
-                      <li className="accordion-body__item">
-                        <a href="#sandwiches" className="accordion-body__link" onClick={closeMenu}>
-                        {t('header.sandwiches')}
-                        </a>
-                      </li>
-                    </ul>
-                   </div>
-                 </div>
-              </div>
-            </li>
           </ul>
         </div>
       </aside>
@@ -368,7 +325,6 @@ export const App = () => {
         </div>
         </section>
 
-
         <section className="alcohol">
         <div className="container">
           
@@ -453,63 +409,7 @@ export const App = () => {
         </div>
         </section>
       
-        <section className="food">
-        <div className="container" id="tapas">
-          
-          <h1 className="food__title title">{t('header.tapas')}</h1>
-          <ul className="food__list">
-            {tapasFromServer.map(tapas => (
-              <li className="product">
-              <div className="product__main">
-                <span className="product__name">{t(`tapas.name.${tapas.id}`)}</span>
-                <span className="product__space"></span>
-                <span className="product__price">{tapas.price}€</span>
-              </div>
-
-              <span className="product__description">{t(`tapas.description.${tapas.id}`)}
-              </span>
-            </li>
-            ))}
-          </ul>
-          
-
-          <h1 className="food__title title" id="toasts">{t('header.toasts')}</h1>
-
-          <ul className="food__list">
-            {toastsFromServer.map(toasts => (
-              <li className="product">
-              <div className="product__main">
-                <span className="product__name">{t(`toasts.name.${toasts.id}`)}</span>
-                <span className="product__space"></span>
-                <span className="product__price">{toasts.price}€</span>
-              </div>
-
-              <span className="product__description">{t(`toasts.description.${toasts.id}`)}
-              </span>
-            </li>
-            ))}
-          </ul>
-
-          <h1 className="food__title title" id="sandwiches">{t('header.sandwiches')}</h1>
-
-          <ul className="food__list food__list--second">
-            {sandwichesFromServer.map(sandwiches => (
-              <li className="product">
-              <div className="product__main">
-                <span className="product__name">{t(`sandwiches.name.${sandwiches.id}`)}</span>
-                <span className="product__space"></span>
-                <span className="product__price">{sandwiches.price}€</span>
-              </div>
-
-              <span className="product__description">{t(`sandwiches.description.${sandwiches.id}`)}
-              </span>
-            </li>
-            ))}
-          </ul>
-          <img src="icon.png" alt="" className="app__pict"/>
-              
-        </div>
-        </section>
+        
       </main>
 
     </div>
