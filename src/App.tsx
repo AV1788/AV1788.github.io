@@ -8,6 +8,7 @@ import whiskeyFromServer from './api/whiskey.json';
 import rumFromServer from './api/rum.json';
 import cognacFromServer from './api/cognac_brandy.json';
 import clCocktailsFromServer from './api/cl_cocktails.json';
+import redWines from './api/red_wine.json';
 import smCocktailsFromServer from './api/sm_cocktails.json';
 import mocktailsFromServer from './api/mocktails.json';
 import lemonadesFromServer from './api/lemonades.json';
@@ -75,6 +76,18 @@ export const App = () => {
         
         <nav className="header__container nav">
           <ul className="nav__list">
+          <li>
+              <div className="dropdown">
+                <a className="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  {t(`main.wine`)}
+                </a>
+
+                <ul className="dropdown-menu">
+                  <li><a className="dropdown-item" href="#red_wine">{t(`header.red_wines`)}</a></li>
+                  <li><a className="dropdown-item" href="#mocktails">{t(`header.mocktails`)}</a></li>
+                </ul>
+              </div>
+            </li>
             <li>
               <div className="dropdown">
                 <a className="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
@@ -130,15 +143,42 @@ export const App = () => {
         </div>
         <div className="menu__nav">
           <ul className="menu-nav accordion" id="accordionExample">
+          <li className="menu-nav__item">
+            
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  {t('main.wine')}
+                </button>
+              </h2>
+              <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div className="accordion-body">
+                  <ul className="accordion-body__list">
+                    <li className="accordion-body__item">
+                      <a href="#red_wine" className="accordion-body__link" onClick={closeMenu}>
+                        {t('header.red_wines')}
+                      </a>
+                    </li>
+                    <li className="accordion-body__item">
+                      <a href="#mocktails" className="accordion-body__link" onClick={closeMenu}>
+                        {t('header.mocktails')}
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </li>
             <li className="menu-nav__item">
             
               <div className="accordion-item">
                 <h2 className="accordion-header">
-                  <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                     {t('main.cocktails')}
                   </button>
                 </h2>
-                <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div id="collapseTwo" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                   <div className="accordion-body">
                     <ul className="accordion-body__list">
                       <li className="accordion-body__item">
@@ -160,11 +200,11 @@ export const App = () => {
             <li className="menu-nav__item">
               <div className="accordion-item">
                 <h2 className="accordion-header">
-                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                   {t('main.alcohol')}
                   </button>
                 </h2>
-                 <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                 <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                    <div className="accordion-body">
                    <ul className="accordion-body__list">
                       <li className="accordion-body__item">
@@ -200,11 +240,11 @@ export const App = () => {
             <li className="menu-nav__item">
               <div className="accordion-item">
                 <h2 className="accordion-header">
-                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                     {t('main.drinks')}
                   </button>
                 </h2>
-                 <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                 <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                    <div className="accordion-body">
                    <ul className="accordion-body__list">
                       <li className="accordion-body__item">
@@ -223,6 +263,26 @@ export const App = () => {
       </aside>
 
       <main>
+        <section className="wines">
+          <div className="container">
+            <h1 className="wines__title title" id="red_wine">{t('header.red_wines')}</h1>
+            <ul className="wines__list">
+              {redWines.map(redWine => (
+                <li className="product">
+                <div className="product__main">
+                  <span className="product__name">{redWine.name}</span>
+                  <span className="product__space"></span>
+                  <span className="product__price">{redWine.price}€</span>
+                </div>
+  
+                <span className="product__description">{redWine.description}
+                </span>
+              </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+
         <section className="cocktails">
         <div className="container">
           <h1 className="cocktails__title title" id="cl_cocktails">{t('header.cl_cocktails')}</h1>

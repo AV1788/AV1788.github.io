@@ -24,6 +24,7 @@ i18n
             drinks: 'Drinks',
             food: 'Food',
             cocktails: 'Cocktails',
+            wine: 'Wine',
           },
           header: {
             tapas: 'Tapas',
@@ -39,6 +40,7 @@ i18n
             milkshakes: 'Milkshakes',
             mocktails: 'Mocktails',
             lemonades: 'Natural Lemonades',
+            red_wines: 'Red wine',
           },
           tapas: {
             name: {
@@ -171,6 +173,7 @@ i18n
             drinks: 'Напитки',
             food: 'Еда',
             cocktails: 'Коктейли',
+            wine: 'Вино',
           },
           header: {
             tapas: 'Закуски',
@@ -185,7 +188,8 @@ i18n
             sm_cocktails: 'Летние коктейли',
             milkshakes: 'Молочные коктейли',
             mocktails: 'Безалкогольные коктейли',
-            lemonades: 'Натуральные лимонады'
+            lemonades: 'Натуральные лимонады',
+            red_wines: 'Красное вино',
           },
           tapas: {
             name: {
@@ -318,6 +322,7 @@ i18n
             drinks: 'Bebidas',
             food: 'Comida',
             cocktails: 'Cócteles',
+            wine: 'Vino',
           },
           header: {
             tapas: 'Tapas',
@@ -332,7 +337,8 @@ i18n
             sm_cocktails: 'Cócteles de verano',
             milkshakes: 'Batidos',
             mocktails: 'Cócteles sin alcohol',
-            lemonades: 'Limonadas naturales'
+            lemonades: 'Limonadas naturales',
+            red_wines: 'Vino tinto',
           },
           tapas: {
             name: {
@@ -465,6 +471,7 @@ i18n
             drinks: 'Boissons',
             food: 'Nourriture',
             cocktails: 'Cocktails',
+            wine: 'Vin',
           },
           header: {
             tapas: 'Tapas',
@@ -479,7 +486,8 @@ i18n
             sm_cocktails: 'Cocktails d\'été',
             milkshakes: 'Milkshakes',
             mocktails: 'Cocktails sans alcool',
-            lemonades: 'Limonades naturelles'
+            lemonades: 'Limonades naturelles',
+            red_wines: 'Vin rouge',
           },
           tapas: {
             name: {

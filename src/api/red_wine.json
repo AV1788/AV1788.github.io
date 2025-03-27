@@ -1,0 +1,8 @@
+[
+  { "id": "bilbao", "name": "Ramon Bilbao Rioja Crianza", "description": "Tempranillo", "price": "4.5/22" },
+  { "id": "zahori", "name": "Zahori Monastrell D.O. Yecla", "description": "Monastrell", "price": "3.5/17" },
+  { "id": "azpi", "name": "Azpilicueta Crianza D.O. Rioja", "description": "Tempranillo, Graciano, Mazuelo", "price": "21" },
+  { "id": "bespen", "name": "Bespen Cabernet Sauvignon", "description": "Cabernet Sauvignon", "price": "21" },
+  { "id": "arrocal", "name": "Arrocal Village D.O. Ribera del Duero", "description": "Tempranillo", "price": "20" },
+  { "id": "acontia", "name": "Acontia Flor y Nata Crianza", "description": "Tempranillo", "price": "30" }
+]
