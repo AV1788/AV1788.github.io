@@ -1,0 +1,9 @@
+[
+  { "id": "viore", "name": "Viore Verdejo D.O. Rueda", "description": "Verdejo", "price": "3.5/16" },
+  { "id": "bespen", "name": "Bespen Chardonnay D.O.", "description": "Chardonnay", "price": "3.5/17" },
+  { "id": "antano", "name": "Antaño Platino Semidulce", "description": "Viura", "price": "3.5/15" },
+  { "id": "costeira", "name": "Viña Costeira D.O. Ribeiro", "description": "Treixadura, Godello, Albariño, Loureira", "price": "3.5/16" },
+  { "id": "vuelapluma", "name": "Vuelapluma Sauvignon", "description": "Sauvignon Blanc", "price": "3.5/17" },
+  { "id": "martin", "name": "Martin Codax Albariño", "description": "Albariño", "price": "32" }
+  
+]

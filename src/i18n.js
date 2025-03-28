@@ -41,6 +41,10 @@ i18n
             mocktails: 'Mocktails',
             lemonades: 'Natural Lemonades',
             red_wines: 'Red wine',
+            white_wines: 'White wine',
+            rose_wines: 'Rosé wine',
+            sparkling_wines: 'Sparkling wine',
+            coffee: 'Coffee'
           },
           tapas: {
             name: {
@@ -190,6 +194,11 @@ i18n
             mocktails: 'Безалкогольные коктейли',
             lemonades: 'Натуральные лимонады',
             red_wines: 'Красное вино',
+            white_wines: 'Белое вино',
+            rose_wines: 'Розовое вино',
+            sparkling_wines: 'Игристое вино',
+            coffee: 'Кофе'
+            
           },
           tapas: {
             name: {
@@ -339,6 +348,10 @@ i18n
             mocktails: 'Cócteles sin alcohol',
             lemonades: 'Limonadas naturales',
             red_wines: 'Vino tinto',
+            white_wines: 'Vino blanco',
+            rose_wines: 'Vino rosado',
+            sparkling_wines: 'Vino espumoso',
+            coffee: 'Café'
           },
           tapas: {
             name: {
@@ -488,6 +501,10 @@ i18n
             mocktails: 'Cocktails sans alcool',
             lemonades: 'Limonades naturelles',
             red_wines: 'Vin rouge',
+            white_wines: 'Vin blanc',
+            rose_wines: 'Vin rosé',
+            sparkling_wines: 'Vin mousseux',
+            coffee: 'Café'
           },
           tapas: {
             name: {

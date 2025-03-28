@@ -1,0 +1,9 @@
+[
+  { "id": "espresso", "name": "Espresso", "price": "1.5" },
+  { "id": "americano", "name": "Americano", "price": "1.6" },
+  { "id": "cortado", "name": "Cortado", "price": "1.8" },
+  { "id": "latte", "name": "Latte", "price": "2.3" },
+  { "id": "macchiato", "name": "Latte Macchiato", "price": "2.5" },
+  { "id": "cappuccino", "name": "Cappuccino", "price": "3" },
+  { "id": "irish", "name": "Irish Coffee", "price": "5" }
+]

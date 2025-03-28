@@ -9,6 +9,10 @@ import rumFromServer from './api/rum.json';
 import cognacFromServer from './api/cognac_brandy.json';
 import clCocktailsFromServer from './api/cl_cocktails.json';
 import redWines from './api/red_wine.json';
+import whiteWines from './api/white_wine.json';
+import roseWines from './api/rose_wine.json';
+import sparklingWines from './api/sparkling_wine.json';
+import coffeeFromServer from './api/coffee.json';
 import smCocktailsFromServer from './api/sm_cocktails.json';
 import mocktailsFromServer from './api/mocktails.json';
 import lemonadesFromServer from './api/lemonades.json';
@@ -84,7 +88,9 @@ export const App = () => {
 
                 <ul className="dropdown-menu">
                   <li><a className="dropdown-item" href="#red_wine">{t(`header.red_wines`)}</a></li>
-                  <li><a className="dropdown-item" href="#mocktails">{t(`header.mocktails`)}</a></li>
+                  <li><a className="dropdown-item" href="#white_wine">{t(`header.white_wines`)}</a></li>
+                  <li><a className="dropdown-item" href="#rose_wine">{t(`header.rose_wines`)}</a></li>
+                  <li><a className="dropdown-item" href="#sparkling_wine">{t(`header.sparkling_wines`)}</a></li>
                 </ul>
               </div>
             </li>
@@ -122,6 +128,7 @@ export const App = () => {
                 </a>
 
                 <ul className="dropdown-menu">
+                  <li><a className="dropdown-item" href="#coffee">{t(`header.coffee`)}</a></li>
                   <li><a className="dropdown-item" href="#lemonades">{t(`header.lemonades`)}</a></li>
                 </ul>
               </div>
@@ -160,8 +167,18 @@ export const App = () => {
                       </a>
                     </li>
                     <li className="accordion-body__item">
-                      <a href="#mocktails" className="accordion-body__link" onClick={closeMenu}>
-                        {t('header.mocktails')}
+                      <a href="#white_wine" className="accordion-body__link" onClick={closeMenu}>
+                        {t('header.white_wines')}
+                      </a>
+                    </li>
+                    <li className="accordion-body__item">
+                      <a href="#rose_wine" className="accordion-body__link" onClick={closeMenu}>
+                        {t('header.rose_wines')}
+                      </a>
+                    </li>
+                    <li className="accordion-body__item">
+                      <a href="#sparkling_wine" className="accordion-body__link" onClick={closeMenu}>
+                        {t('header.sparkling_wines')}
                       </a>
                     </li>
                   </ul>
@@ -174,11 +191,11 @@ export const App = () => {
             
               <div className="accordion-item">
                 <h2 className="accordion-header">
-                  <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     {t('main.cocktails')}
                   </button>
                 </h2>
-                <div id="collapseTwo" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div className="accordion-body">
                     <ul className="accordion-body__list">
                       <li className="accordion-body__item">
@@ -248,6 +265,14 @@ export const App = () => {
                    <div className="accordion-body">
                    <ul className="accordion-body__list">
                       <li className="accordion-body__item">
+                        <a href="#coffee" className="accordion-body__link" onClick={closeMenu}>
+                        {t('header.coffee')}
+                        </a>
+                      </li>
+                      
+                    </ul>
+                   <ul className="accordion-body__list">
+                      <li className="accordion-body__item">
                         <a href="#lemonades" className="accordion-body__link" onClick={closeMenu}>
                         {t('header.lemonades')}
                         </a>
@@ -276,6 +301,54 @@ export const App = () => {
                 </div>
   
                 <span className="product__description">{redWine.description}
+                </span>
+              </li>
+              ))}
+            </ul>
+
+            <h1 className="wines__title title" id="white_wine">{t('header.white_wines')}</h1>
+            <ul className="wines__list">
+              {whiteWines.map(whiteWine => (
+                <li className="product">
+                <div className="product__main">
+                  <span className="product__name">{whiteWine.name}</span>
+                  <span className="product__space"></span>
+                  <span className="product__price">{whiteWine.price}€</span>
+                </div>
+  
+                <span className="product__description">{whiteWine.description}
+                </span>
+              </li>
+              ))}
+            </ul>
+
+            <h1 className="wines__title title" id="rose_wine">{t('header.rose_wines')}</h1>
+            <ul className="wines__list">
+              {roseWines.map(roseWine => (
+                <li className="product">
+                <div className="product__main">
+                  <span className="product__name">{roseWine.name}</span>
+                  <span className="product__space"></span>
+                  <span className="product__price">{roseWine.price}€</span>
+                </div>
+  
+                <span className="product__description">{roseWine.description}
+                </span>
+              </li>
+              ))}
+            </ul>
+
+            <h1 className="wines__title title" id="sparkling_wine">{t('header.sparkling_wines')}</h1>
+            <ul className="wines__list">
+              {sparklingWines.map(sparklingWine => (
+                <li className="product">
+                <div className="product__main">
+                  <span className="product__name">{sparklingWine.name}</span>
+                  <span className="product__space"></span>
+                  <span className="product__price">{sparklingWine.price}€</span>
+                </div>
+  
+                <span className="product__description">{sparklingWine.description}
                 </span>
               </li>
               ))}
@@ -321,6 +394,20 @@ export const App = () => {
 
         <section className="drinks">
         <div className="container">
+        <h1 className="drinks__title title" id="coffee">{t('header.coffee')}</h1>
+          <ul className="drinks__list">
+            {coffeeFromServer.map(coffee => (
+              <li className="product">
+              <div className="product__main">
+                <span className="product__name">{coffee.name}</span>
+                <span className="product__space"></span>
+                <span className="product__price">{coffee.price}€</span>
+              </div>
+
+            </li>
+            ))}
+          </ul>
+
           <h1 className="drinks__title title" id="lemonades">{t('header.lemonades')}</h1>
           <ul className="drinks__list">
             {lemonadesFromServer.map(lemonades => (
