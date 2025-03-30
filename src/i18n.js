@@ -40,11 +40,13 @@ i18n
             milkshakes: 'Milkshakes',
             mocktails: 'Mocktails',
             lemonades: 'Natural Lemonades',
-            red_wines: 'Red wine',
-            white_wines: 'White wine',
-            rose_wines: 'Rosé wine',
-            sparkling_wines: 'Sparkling wine',
-            coffee: 'Coffee'
+            red_wines: 'Red Wine',
+            white_wines: 'White Wine',
+            rose_wines: 'Rosé Wine',
+            sparkling_wines: 'Sparkling Wine',
+            coffee: 'Coffee',
+            beer: 'Beer',
+            soft_drink: 'Soft Drinks',
           },
           tapas: {
             name: {
@@ -167,6 +169,25 @@ i18n
               bomb: 'Strawberry purée, orange juice, mango purée, pineapple juice, watermelon syrup.',
             }
           },
+          beers: {
+            description: {
+              small_beer: 'Small draft beer',
+              large_beer: 'Large draft beer',
+            }
+          },
+          drinks: {
+            description: {
+              fanta: 'Fanta (orange, lemon)',
+              aquarius: 'Aquarius (orange, lemon)',
+              fuze: 'Fuze Tea (lemon, passion fruit)',
+              juice: 'Juice (orange, pineapple, apple, peach)',
+              orange: 'Natural orange juice',
+              water_small: 'Still water 0.5', 
+              water_big: 'Still water 1.0',
+              sparkling: 'Sparkling water 0.5',
+              bliss_tonic: 'Royal Bliss Tonic (normal, zero, orange, berry)',
+            }
+          }
           
         }
       },
@@ -197,7 +218,9 @@ i18n
             white_wines: 'Белое вино',
             rose_wines: 'Розовое вино',
             sparkling_wines: 'Игристое вино',
-            coffee: 'Кофе'
+            coffee: 'Кофе',
+            beer: 'Пиво',
+            soft_drink: 'Прохладительные напитки',
             
           },
           tapas: {
@@ -322,6 +345,25 @@ i18n
               bomb: 'Пюре клубники, апельсиновый сок, пюре манго, сок ананаса, сироп арбуза.',
             }
           },
+          beers: {
+            description: {
+              small_beer: 'Маленькое разливное пиво',
+              large_beer: 'Большое разливное пиво',
+            }
+          },
+          drinks: {
+            description: {
+              fanta: 'Fanta (апельсин, лимон)',
+              aquarius: 'Aquarius (апельсин, лимон)',
+              fuze: 'Fuze Tea (лимон, маракуйя)',
+              juice: 'Сок (апельсин, ананас, яблоко, персик)',
+              orange: 'Натуральный апельсиновый сок',
+              water_small: 'Вода без газа 0.5', 
+              water_big: 'Вода без газа 1.0',
+              sparkling: 'Газированная вода 0.5',
+              bliss_tonic: 'Royal Bliss Tonic (обычный, без сахара, апельсин, ягоды)',
+            }
+          }
         }
       },
       es: {
@@ -351,7 +393,9 @@ i18n
             white_wines: 'Vino blanco',
             rose_wines: 'Vino rosado',
             sparkling_wines: 'Vino espumoso',
-            coffee: 'Café'
+            coffee: 'Café',
+            beer: 'Cerveza',
+            soft_drink: 'Refrescos',
           },
           tapas: {
             name: {
@@ -475,6 +519,25 @@ i18n
               bomb: 'Puré de fresa, zumo de naranja, puré de mango, zumo de piña, sirope de sandía.',
             }
           },
+          beers: {
+            description: {
+              small_beer: 'Сaña',
+              large_beer: 'Tanque',
+            }
+          },
+          drinks: {
+            description: {
+              fanta: 'Fanta (naranja, limón)',
+              aquarius: 'Aquarius (naranja, limón)',
+              fuze: 'Fuze Tea (limón, maracuyá)',
+              juice: 'Zumo (naranja, piña, manzana, melocotón)',
+              orange: 'Zumo de naranja natural',
+              water_small: 'Agua sin gas 0.5', 
+              water_big: 'Agua sin gas 1.0',
+              sparkling: 'Agua con gas 0.5',
+              bliss_tonic: 'Royal Bliss Tonic (normal, zero, naranja, frutos rojos)',
+            }
+          }
         }
       },
       fr: {
@@ -504,7 +567,9 @@ i18n
             white_wines: 'Vin blanc',
             rose_wines: 'Vin rosé',
             sparkling_wines: 'Vin mousseux',
-            coffee: 'Café'
+            coffee: 'Café',
+            beer: 'Bière',
+            soft_drink: 'Boissons fraîches',
           },
           tapas: {
             name: {
@@ -628,6 +693,25 @@ i18n
               bomb: 'Purée de fraise, jus d\'orange, purée de mangue, jus d\'ananas, sirop de pastèque.',
             }
           },
+          beers: {
+            description: {
+              small_beer: 'Une petite bière pression',
+              large_beer: 'Une grande bière pression',
+            }
+          },
+          drinks: {
+            description: {
+              fanta: 'Fanta (orange, citron)',
+              aquarius: 'Aquarius (orange, citron)',
+              fuze: 'Fuze Tea (citron, fruit de la passion)',
+              juice: 'Jus (orange, ananas, pomme, pêche)',
+              orange: 'Jus d\'orange pressé',
+              water_small: 'Eau plate 0.5', 
+              water_big: 'Eau plate 1.0',
+              sparkling: 'Eau gazeuse 0.5',
+              bliss_tonic: 'Royal Bliss Tonic (normal, zéro, orange, fruits rouges)',
+            }
+          }
         }
       },
     }

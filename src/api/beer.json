@@ -1,0 +1,10 @@
+[
+  { "id": "small_beer", "name": "Small draft beer", "price": "2.5" },
+  { "id": "large_beer", "name": "Large draft beer", "price": "4" },
+  { "id": "1906", "name": "1906", "price": "3" },
+  { "id": "estrella", "name": "Estrella Galicia", "price": "3" },
+  { "id": "estrella0_0", "name": "Estrella Galicia 0.0", "price": "3" },
+  { "id": "estrella_toasted", "name": "Estrella Galicia 0.0 Toasted", "price": "3" },
+  { "id": "peroni", "name": "Peroni Nastro Azzuro", "price": "5" },
+  { "id": "brewdog", "name": "Brewdog Wingman", "price": "5" }
+]

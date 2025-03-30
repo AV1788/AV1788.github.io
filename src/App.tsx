@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import i18next from 'i18next';
 import './App.css';
 import { useTranslation } from 'react-i18next';
 import './styles/App.scss';
@@ -13,6 +14,8 @@ import whiteWines from './api/white_wine.json';
 import roseWines from './api/rose_wine.json';
 import sparklingWines from './api/sparkling_wine.json';
 import coffeeFromServer from './api/coffee.json';
+import beerFromServer from './api/beer.json';
+import drinksFromServer from './api/drinks.json';
 import smCocktailsFromServer from './api/sm_cocktails.json';
 import mocktailsFromServer from './api/mocktails.json';
 import lemonadesFromServer from './api/lemonades.json';
@@ -118,6 +121,7 @@ export const App = () => {
                   <li><a className="dropdown-item" href="#whiskey">{t(`header.whiskey`)}</a></li>
                   <li><a className="dropdown-item" href="#rum">{t(`header.rum`)}</a></li>
                   <li><a className="dropdown-item" href="#cognac">{t(`header.cognac`)}</a></li>
+                  <li><a className="dropdown-item" href="#beer">{t(`header.beer`)}</a></li>
                 </ul>
               </div>
             </li>
@@ -130,6 +134,7 @@ export const App = () => {
                 <ul className="dropdown-menu">
                   <li><a className="dropdown-item" href="#coffee">{t(`header.coffee`)}</a></li>
                   <li><a className="dropdown-item" href="#lemonades">{t(`header.lemonades`)}</a></li>
+                  <li><a className="dropdown-item" href="#drinks">{t(`header.soft_drink`)}</a></li>
                 </ul>
               </div>
             </li>
@@ -249,6 +254,11 @@ export const App = () => {
                         {t('header.cognac')}
                         </a>
                       </li>
+                      <li className="accordion-body__item">
+                        <a href="#beer" className="accordion-body__link" onClick={closeMenu}>
+                        {t('header.beer')}
+                        </a>
+                      </li>
                     </ul>
                    </div>
                  </div>
@@ -275,6 +285,14 @@ export const App = () => {
                       <li className="accordion-body__item">
                         <a href="#lemonades" className="accordion-body__link" onClick={closeMenu}>
                         {t('header.lemonades')}
+                        </a>
+                      </li>
+                      
+                    </ul>
+                    <ul className="accordion-body__list">
+                      <li className="accordion-body__item">
+                        <a href="#drinks" className="accordion-body__link" onClick={closeMenu}>
+                        {t('header.soft_drink')}
                         </a>
                       </li>
                       
@@ -424,6 +442,23 @@ export const App = () => {
             ))}
           </ul>
 
+          <h1 className="drinks__title title" id="drinks">{t('header.soft_drink')}</h1>
+          <ul className="drinks__list">
+            {drinksFromServer.map(drink => (
+              <li className="product">
+              <div className="product__main">
+                <span className="product__name">{
+                  i18next.exists(`drinks.description.${drink.id}`)
+                  ? t(`drinks.description.${drink.id}`)
+                  : drink.name
+                }</span>
+                <span className="product__space"></span>
+                <span className="product__price">{drink.price}€</span>
+              </div>
+            </li>
+            ))}
+          </ul>
+
           
         </div>
         </section>
@@ -504,6 +539,25 @@ export const App = () => {
                 <span className="product__space"></span>
                 <span className="product__price">{cognac.price}€</span>
               </div>
+            </li>
+            ))}
+          </ul>
+
+          <h1 className="alcohol__title title" id="beer">{t('header.beer')}</h1>
+          <ul className="alcohol__list">
+            {beerFromServer.map(beer => (
+              <li className="product">
+              <div className="product__main">
+                
+                <span className="product__name">{
+                  i18next.exists(`beers.description.${beer.id}`)
+                  ? t(`beers.description.${beer.id}`)
+                  : beer.name
+                }</span>
+                <span className="product__space"></span>
+                <span className="product__price">{beer.price}€</span>
+              </div>
+
             </li>
             ))}
           </ul>

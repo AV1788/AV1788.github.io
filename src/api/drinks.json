@@ -1,0 +1,18 @@
+[
+  { "id": "coca", "name": "Coca-cola", "price": "2.5" },
+  { "id": "fanta", "name": "Fanta (orange, lemon)", "price": "2.5" },
+  { "id": "sprite", "name": "Sprite", "price": "2.5" },
+  { "id": "aquarius", "name": "Aquarius (orange, lemon)", "price": "2.5" },
+  { "id": "fuze", "name": "Fuze Tea (lemon, passion fruit)", "price": "2.5" },
+  { "id": "juice", "name": "Juice (orange, pineapple, apple, peach)", "price": "2.5" },
+  { "id": "orange", "name": "Natural orange juice", "price": "3.5" },
+  { "id": "water_small", "name": "Still water 0.5", "price": "3" },
+  { "id": "water_big", "name": "Still water 1.0", "price": "5" },
+  { "id": "sparkling", "name": "Sparkling water 0.5", "price": "3" },
+  { "id": "bliss_tonic", "name": "Royal Bliss Tonic (normal, zero, orange, berry)", "price": "3" },
+  { "id": "mist_tonic", "name": "Nordic Mist Tonic", "price": "3.5" },
+  { "id": "sangria_small", "name": "Sangria 0.5", "price": "5" },
+  { "id": "sangria_big", "name": "Sangria 1.0", "price": "8" },
+  { "id": "ginger_beer", "name": "Royal Bliss Ginger Beer", "price": "3.5" },
+  { "id": "ginger_ale", "name": "Royal Bliss Ginger Ale", "price": "3.5" }
+]
