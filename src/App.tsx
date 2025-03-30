@@ -544,7 +544,7 @@ export const App = () => {
           </ul>
 
           <h1 className="alcohol__title title" id="beer">{t('header.beer')}</h1>
-          <ul className="alcohol__list">
+          <ul className="alcohol__list alcohol__list--second">
             {beerFromServer.map(beer => (
               <li className="product">
               <div className="product__main">
